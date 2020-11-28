@@ -1,15 +1,13 @@
 #div_header{
     background-color: rgba(255,255,255,0.2);
-    height: 30vh;
+
 }
 .art{
     background-color: rgba(255,255,255,0.2);
-    height: auto;
-    min-height: 20vh;
+
 }
 .div_footer{
     background-color: rgba(255,255,255,0.2);
-    height: 17vh;
 }
 .rounded-perso{
     border-radius: 40px;
@@ -17,8 +15,6 @@
 h1{
     color: #d8d6e9;
     text-align: center;
-    margin-block-start: 1.55em;
-    margin-block-end: 0em;
 }
 body{
     vertical-align: middle;
