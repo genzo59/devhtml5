@@ -1,10 +1,9 @@
 #div_header{
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.3);
 
 }
 .art{
     background-color: rgba(255,255,255,0.2);
-
 }
 .div_footer{
     background-color: rgba(255,255,255,0.2);
@@ -13,29 +12,36 @@
     border-radius: 40px;
 }
 h1{
-    color: #d8d6e9;
     text-align: center;
+    word-wrap: break-word;
+    text-shadow: #636669 0.2em 0.2em 0.2em;
 }
 body{
     vertical-align: middle;
     justify-content: center;
+    background-image:url(images/bg2.jpg);
+    background-position:100% 0%;
+    background-attachment: fixed;
 }
-img{
-    margin-left: 10px;
+.shadowing{
+    box-shadow: #636669 0.5em 0.5em 0.5em;
 }
 h3{
-    color: #d8d6e9;
     text-align: center;
     font-size: 1.10em;
     font-style: italic;
+    word-wrap: break-word;
 }
-#footer_gauche{
-    text-align: center;
-    margin-block-start: 1em;
-    margin-bottom: 0;
+h2{
+    word-wrap: break-word;
+    text-shadow: #636669 0.2em 0.2em 0.2em;
 }
-#footer_droite{
+.centrage{
     text-align: center;
-    margin-block-start: 2.50em;
-    margin-bottom: 0;
+}
+.salete_de_barre_de_progression{
+    margin:-15px;
+}
+.drapeau{
+    margin-left: 15px;
 }

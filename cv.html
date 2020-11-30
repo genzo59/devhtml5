@@ -10,12 +10,12 @@
 
 
 </head>
-<body class="container bg-dark bg-primary">
+<body class="container">
     <header class="row h-50 rounded-lg custom-class mb-3">
         <nav class="navbar col-lg-12 col-sm-12 bg-dark">
             <a class="navbar-brand badge-dark" href="#content">CV</a>
             <a class="nav-link badge-dark" href="#Qui">Qui suis-je ?</a>
-            <a class="nav-link badge-dark" href="#Parcour">Mon parcours</a>
+            <a class="nav-link badge-dark" href="#Parcours">Mon parcours</a>
             <a class="nav-link badge-dark" href="#Comp">Compétences</a>
             <a class="nav-link badge-dark" href="#Real">Réalisations</a>
             <a class="nav-link badge-dark" href="#Contact">Contact</a>
@@ -23,21 +23,28 @@
         <div id="div_header" class="col-12 mt-3 pt-5 pb-5 h-50 align-middle rounded-perso"><h1>Thomas Allamando</h1><h3>Développeur web stagiaire</h3></div>
     </header>
     <section class="row justify-content-around mb-3 custom-class">
-        <article class="col-5 rounded-perso custom-class art">
+        <article class="col-3 rounded-perso align-self-center centrage" id="Qui">
+            <img src="images/img1.jpg" class="border shadowing w-100">
+        </article>
+        <article class="col-8 rounded-perso art">
+            <h2>A propos</h2>
+            <p>En reconversion dans le domaine du web, je suis actuellement en formation au sein du GRETA de Douai en tant que Développeur Web et Web Mobile.</p>
+        </article>
+        <article class="col-5 rounded-perso custom-class art mt-3" id="Parcours">
             <h2>Expérience professionnelle</h2>
             <ul>
                 <li>2019 : Chargé des Collections (Médiathèque Le Quai, Condé-sur-l'Escaut)</li>
                 <li>2017-2018 : Responsable médiathèque (Médiathèque Medi@Nice, Recquignies)</li>
-                <li>2015-2017 : Responsable médiathèque (Institut Français, Kénitra)<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/30px-Flag_of_Morocco.svg.png" alt="drapeau du Maroc" title="Maghrib"/></li>
-                <li>2015 : Médiateur culturel (Musée des arts étrangers, Riga)<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/30px-Flag_of_Latvia.svg.png" alt="drapeau de la Lettonie" title="Latvija"/></li>
+                <li>2015-2017 : Responsable médiathèque (Institut Français, Kénitra)<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/30px-Flag_of_Morocco.svg.png" alt="drapeau du Maroc" title="Maghrib" class="drapeau"/></li>
+                <li>2015 : Médiateur culturel (Musée des arts étrangers, Riga)<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/30px-Flag_of_Latvia.svg.png" alt="drapeau de la Lettonie" title="Latvija" class="drapeau"/></li>
                 <li>2014 : Muséographe (Musée Matisse, Le-Cateau-Cambrésis)</li>
                 <li>2014 : Chargé d'événementiel (Musée de l'Hôtel-Dieu, Château-Thierry)</li>
                 <li>2013 : Chargé d'événementiel (Ecomusée de l'Avesnois, Fourmies)</li>
-                <li>2013 : Médiateur culturel (Pôle muséal, Mons)<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/30px-Flag_of_Belgium_%28civil%29.svg.png" alt="drapeau de la Belgique" title="België"/></li>
+                <li>2013 : Médiateur culturel (Pôle muséal, Mons)<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/30px-Flag_of_Belgium_%28civil%29.svg.png" alt="drapeau de la Belgique" title="België" class="drapeau"/></li>
                 <li>2012 : Médiateur culturel (Musée des Beaux-Arts, Cambrai)</li>
             </ul>
         </article>
-        <article class="col-6 rounded-perso custom-class art">
+        <article class="col-6 rounded-perso custom-class art mt-3">
             <h2>Diplômes et formations</h2>
             <ul>
                 <li>2020-2021 (en cours) : Titre Professionnel Développeur Web et Web Mobile (GRETA, Douai)</li>
@@ -48,13 +55,45 @@
                 <li>2002 : Baccalauréat Scientifique, options Mathématiques (Lycée Notre-Dame, Valenciennes)</li>
             </ul>
         </article>
+        <article class="col-12 mt-3" id="Comp">
+            <div id="div1_progress" class="justify-content-around d-flex flex-row align-self-center centrage">
+                <div class="col-2">
+                    <img class="w-50" src="images/html5.png">
+                </div>
+                <div class="col-2">
+                    <img class="w-50" src="images/css.png">
+                </div>
+                <div class="col-2">
+                    <img class="w-50" src="images/js.png">
+                </div>
+                <div class="col-2 align-self-center">
+                    <img class="w-50" src="images/bs.png">
+                </div>
+                <div class="col-2 align-self-center">
+                    <img class="w-50" src="images/git.png">
+                </div>
+            </div>
+            <div id="div2_progress" class="justify-content-around d-flex flex-row mt-2">
+                    <div class="progress col-2">
+                        <div class="salete_de_barre_de_progression progress-bar progress-bar-striped progress-bar-animated bd-dark" role="progressbar" style="width: 20%" title="20%"></div>
+                    </div>
+                    <div class="progress col-2">
+                        <div class="salete_de_barre_de_progression progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 15%" title="15%"></div>
+                    </div>
+                    <div class="progress col-2">
+                        <div class="salete_de_barre_de_progression progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 10%" title="10%"></div>
+                    </div>
+                    <div class="progress col-2">
+                        <div class="salete_de_barre_de_progression progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 10%" title="10%"></div>
+                    </div>
+                    <div class="progress col-2">
+                        <div class="salete_de_barre_de_progression progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 3%" title="3%"></div>
+                    </div>
+               </div>
+        </article>
     </section>
-    <footer class="row h-50 justify-content-around custom-class">
-        <div class="h-50 col-6 rounded-perso div_footer">
-            <p id="footer_gauche">Thomas Allamando<br>49, boulevard de l'Europe<br>Bâtiment Italie - Appartement 168<br>59600 MAUBEUGE</p>
-        </div>
-        <div class="h-50 col-5 rounded-perso div_footer pb-4">
-            <p id="footer_droite">06.67.09.39.21<br>thomas.allamando@hotmail.fr</p>
+    <footer class="row h-50 justify-content-around custom-class div_footer mb-3 rounded-perso" id="Contact">
+            <p align="center" class="mt-2 mb-2">Thomas Allamando - novembre 2020<br>06.67.09.39.21<br>thomas.allamando@hotmail.fr</p>
         </div>
     </footer>
 </body>
