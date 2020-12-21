@@ -164,55 +164,77 @@ section{
 #article2 ul li{
     margin-left: -20px;
 }
-#progress{
+#progress1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: space-between;
     width:70%;
     height:20vh;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
-#progress1, #progress1b{
+#progress1a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100%;
-    height: 80%;
+    height:70%;
 }
-#progress1 div{
+#progress1a div{
     width:20%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-#progress1 img{
-    height:100%;
+#progress1a img{
+    max-width:100%;
+    max-height: 100%;
 }
-#progress1b div{
-    width:20%;
+#progress1b{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    height:20%;
 }
-#progress1b img{
-    height:100%;
+#progress1b .divp2{
+    background-color: rgb(193, 209, 209);
+    border-radius: 20px;
+    width:20%;
 }
 #progress2{
-    height: 20%;
-    width: 100%;
-    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:70%;
+    height:20vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#progress2a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height:70%;
 }
-#progress2 .divp2{
-    background-color: #a9c8c9;
-    width: calc(20% - 10px);
+#progress2a div{
+    width:20%;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
+    align-items: flex-end;
+}
+#progress2a img{
+    max-width:90%;
+    max-height: 90%;
+}
+#progress2b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:20%;
+}
+#progress2b .divp2{
+    background-color: rgb(193, 209, 209);
     border-radius: 20px;
+    width:20%;
 }
 #progress2_html{
     width:45%;
@@ -318,7 +340,7 @@ footer a:hover{
     border: 1px dashed #3f5973;
     background-color: antiquewhite!important;
 }
-@media(max-width:600px){
+@media(max-width:1100px) and (min-width:300px){
     body{
         display: flex;
         flex-direction: column;
@@ -327,7 +349,7 @@ footer a:hover{
     }
     nav{
         width: 100%;
-        height: 25%;
+        height: 20%;
         display: flex;
     }
     nav ul{
@@ -336,8 +358,8 @@ footer a:hover{
         height:100%;
     }
     header{
-        margin-top: calc(25vh + 20px);
-        height: 25vh;
+        margin-top: calc(20vh + 20px);
+        height: 15vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -364,7 +386,7 @@ footer a:hover{
     }
     #apropos{
         width:fit-content;
-        height:20vh;
+        height:15vh;
         margin-top:20px;
         margin-left: 0;
         padding-top: 10px;
@@ -380,58 +402,12 @@ footer a:hover{
         margin-top: 20px;
         padding-bottom: 20px;
     }
-    #progress{
-        height:20vh;
-        width: 100%;
-        margin-top: 290px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: -290px;
-    }
-    #progress1{
-        width:100%;
-        height: 17vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    #progress1 div{
-        width: 20%;
-        height: 17vh;
-    }
-    #progress1 img{
-        width:100%;
-    }
-    #progress1b{
-        width: 100%;
-        height:50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    #progress1b img{
-        height:50px;
-    }
-    #progress2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .divp2{
-        width:25%;
-    }
     #vie_culturelle{
         width:100%;
-        height:20vh;
-        margin-top: 280px;
+        height: 15vh;
     }
     footer{
         width:100%;
-        height:20vh;
-    }
-    #bs, #git{
-        height:80%!important;
-        align-self:flex-end!important;
+        height: 10vh;
     }
 }
