@@ -1,12 +1,14 @@
-#div_header{
-    background-color: rgba(255,255,255,0.3);
-
+footer a{
+    color:#3f5973!important;
 }
-.art{
-    background-color: rgba(255,255,255,0.2);
+footer a:hover{
+    color:#3f5973!important;
+    text-decoration: none!important;
+    border: 1px dashed #3f5973;
+    background-color: antiquewhite!important;
 }
-.div_footer{
-    background-color: rgba(255,255,255,0.2);
+.bg-antique{
+    background-color: rgba(250,235,215,0.4);
 }
 .rounded-perso{
     border-radius: 40px;
@@ -17,11 +19,11 @@ h1{
     text-shadow: #636669 0.2em 0.2em 0.2em;
 }
 body{
-    vertical-align: middle;
-    justify-content: center;
     background-image:url(images/bg2.jpg);
     background-position:100% 0%;
     background-attachment: fixed;
+    background-size: cover;
+    margin:0;
 }
 .shadowing{
     box-shadow: #636669 0.5em 0.5em 0.5em;
@@ -33,15 +35,14 @@ h3{
     word-wrap: break-word;
 }
 h2{
-    word-wrap: break-word;
     text-shadow: #636669 0.2em 0.2em 0.2em;
 }
 .centrage{
     text-align: center;
 }
-.salete_de_barre_de_progression{
-    margin:-15px;
-}
 .drapeau{
     margin-left: 15px;
+}
+ul{
+    height: 85%;
 }
