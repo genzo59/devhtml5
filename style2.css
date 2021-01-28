@@ -237,7 +237,7 @@ section{
     width:20%;
 }
 #progress2_html{
-    width:45%;
+    width:50%;
     height: 100%;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
@@ -251,14 +251,14 @@ section{
     border-top-left-radius: 20px;
 }
 #progress2_js{
-    width:15%;
+    width:20%;
     height: 100%;
     background-image: linear-gradient(to left, #62a714, #aaef63);
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
 #progress2_bs{
-    width:25%;
+    width:30%;
     height: 100%;
     background-image: linear-gradient(to left, #5b4282, #d2b3fe);
     border-bottom-left-radius: 20px;
