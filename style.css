@@ -1,0 +1,333 @@
+body{
+    margin:0;
+    font-family:'Trebuchet MS';
+}
+.ecran{
+    height:93vh;
+    display: flex;
+    flex-direction: column;
+}
+.ecran1{
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(bg2.jpg);
+}
+.ecran1 section{
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bouton{
+    background-color:teal;
+    border:0;
+    border-radius:10px;
+    height:5vh;
+    width:8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+.bouton:hover{
+    background-color:#ff7f7f;
+    color:black;
+    border:0;
+}
+a{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+h1{
+    margin:0;
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 3em;
+    font-variant : small-caps;
+}
+nav{
+    background-color:teal;
+    height:7vh;
+    position: sticky;
+    top: 0;
+}
+.barre{
+    height:7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style-type: none;
+}
+nav li{
+    border:rgb(255, 255, 255) 1px solid;
+    border-bottom: none;
+    border-top: none;
+    height:7vh;
+    width:30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.ecran2{
+    background-color: #abe0be;
+}
+#valobjpas{
+    flex:1;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b9debe;
+}
+#valobjpas div{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+}
+#valobjpas div p{
+    width:100%;
+    text-align: justify;
+    padding-top:5px;
+
+}
+#valobjpas div ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    padding-top:5px;
+}
+h2{
+    background-color: teal;
+    color:white;
+    align-self:start;
+    margin:0;
+    margin-top: 1em;
+}
+#quisuisje{
+    flex:2;
+    display: flex;
+}
+.photo{
+    flex:1;
+    background-color: #a7cbab;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.photo img{
+    max-width: 100%;
+    max-height:100%;
+}
+.quisuisje2{
+    flex:3;
+    background-color: #a7cbab;
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+.quisuisje2a{
+    display: flex;
+    flex-direction: column;
+    flex:0.5;
+}
+.titres{
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+}
+.titres div{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.demi-page{
+    height:calc(93vh / 2);
+}
+.demi-demi-page{
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.demi-demi-page h2{
+    align-self: center !important;
+}
+#annees{
+    font-weight: bold;
+    border-bottom: 2px solid teal;
+}
+.demi-comp{
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    list-style-type: none;
+}
+.demi-comp input{
+    align-self: center;
+}
+.arriere-plan-prog{
+    background-color: rgb(164, 180, 196);
+    height:3vh;
+    width:30vw;
+}
+.prog{
+    background-image: linear-gradient(to right,#000000,#008080);
+    height:3vh;
+    width:30vw;
+}
+.comp2{
+    background-color: #b9ded4;
+    display: flex;
+    justify-content: space-evenly;
+}
+.comp3{
+    background-color: #9dbcb4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.portfolio-haut h2, p{
+    align-self: center;
+    margin:0;
+}
+.comp4{
+    background-color: #dddeb9;
+    display: flex;
+    justify-content: space-evenly;
+}
+.comp5{
+    background-color: #bcbd9f;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tem1{
+    background-color: #deb9b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tem1 div{
+    width:80%;
+    height:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tem1 *{
+    align-self:center;
+    text-align: center;
+}
+.tem2{
+    background-color: #bc9d9d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tem2 div{
+    display: flex;
+}
+.portfolio-haut{
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex:1;
+}
+.portfolio-bas{
+    width:60%;
+    flex:2;
+    margin:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tem2 div img{
+    max-width: 25%;
+    max-height:auto;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.ecran6{
+    background-color: #ddb8de;
+    display: flex;
+    flex-direction: column;
+}
+#haut-contact{
+    flex:3;
+    display: flex;
+    justify-content: space-evenly;
+}
+.haut-contact-demi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.haut-contact-demi form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+.haut-contact-demi form div{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%
+}
+#message, #email, #nom{
+    resize: none;
+    width:500px;
+    border-radius: 10px;
+}
+#email, #nom{
+    height:30px;
+}
+#message{
+    height:250px;
+}
+footer{
+    flex:0.75;
+    background-color: #bc9fbd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer div{
+    width:30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer div a{
+    width:auto !important;
+    height:auto !important;
+
+}
+footer div img{
+    -webkit-filter: hue-rotate(190deg); 
+}
+/*.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 7vh;
+}*/
