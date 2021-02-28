@@ -1,6 +1,7 @@
 body{
     margin:0;
     font-family:'Trebuchet MS';
+    cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1160.png), default !important;
 }
 .ecran{
     height:93vh;
@@ -11,6 +12,8 @@ body{
     justify-content: space-evenly;
     align-items: center;
     background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .ecran1 section{
     height:40%;
@@ -295,7 +298,7 @@ h2{
 .haut-contact-demi form div{
     display: flex;
     justify-content: space-evenly;
-    width:100%
+    width:100%;
 }
 #message, #email, #nom{
     resize: none;

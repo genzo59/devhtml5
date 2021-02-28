@@ -9,7 +9,7 @@
         <div class="ecran ecran1">
             <section>
                 <h1>Développeur Web Junior</h1>
-                <input class="bouton" type="button" value="En savoir plus" onclick="window.location.href='http://www.google.fr';">
+                <input class="bouton" type="button" value="En savoir plus" onclick="window.open('https://www.regionsjob.com/observatoire-metiers/fiche/developpeur-web', '_blank');">
             </section>
         </div>
         <nav id="navbar">
@@ -31,7 +31,7 @@
             </div>
             <div id="quisuisje">
                 <div class="photo">
-                    <img src="img1.jpg" alt="photo de la reine d'angleterre" srcset="img1.jpg 340w, img1.jpg 366w">
+                    <img src="img1.jpg" alt="photo de thomas">
                 </div>
                 <div class="quisuisje2">
                     <div class="quisuisje2a">
@@ -47,12 +47,11 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="ecran ecran3">
+        </section>        <section class="ecran ecran3">
             <div class="demi-page comp2">
                 <div class="demi-comp">
                     <h2>Mes compétences</h2>
-                    <input class="bouton" type="button" value="Me contacter" onclick="window.location.href='mailto:thomasallamando@gmail.com';">
+                    <input class="bouton" type="button" value="Me contacter" onclick="window.location.href='mailto:toto@totomail.co';">
                 </div>
                 <div class="demi-comp">
                     <div class="titre-prog">HTML/CSS</div>
@@ -130,8 +129,7 @@
                     <h2>Contactez-moi</h2>
                 </div>
                 <div class="haut-contact-demi">
-                    
-                    <form method="post" action="index-signature.php">
+                    <form method="post" action="https://formspree.io/f/mknplrnq" id="my-form">
                             <label for="nom">Nom</label>
                             <input type="text" name="nom" id="nom" required minlength="2" maxlength="30"/>
                             <label for="email">E-mail</label>
@@ -139,7 +137,7 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" required minlength="2" maxlength="160"></textarea>
                             <div>
-                                <button class="bouton" type="submit" value="valider" size="20">Valider</button>
+                                <button class="bouton" type="submit" value="envoyer">Envoyer</button>
                                 <button class="bouton" type="reset" value="annuler" size="20">Annuler</button>
                             </div>
                     </form>   
@@ -147,8 +145,8 @@
             </div>
             <footer>
                 <div>
-                    <a href="https://www.facebook.com/kawax59/"><img src="https://genzo59.github.io/0Dech/logofb.png" alt=""></a>
-                    <a href="https://www.instagram.com/"><img src="https://genzo59.github.io/0Dech/logoinsta.png" alt=""></a>
+                    <a href="http://www.facebook.com/kawax59/" target="_blank"><img src="https://genzo59.github.io/0Dech/logofb.png" alt=""></a>
+                    <img src="https://genzo59.github.io/0Dech/logoinsta.png" alt="" onclick="window.alert('Non disponible pour le moment. Désolé.');">
                 </div>
             </footer>
         </section>
