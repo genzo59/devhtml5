@@ -58,6 +58,7 @@ h1{
     color: white;
     font-size: 3em;
     font-variant : small-caps;
+    text-align: center;
 }
 nav{
     background-color:teal;
